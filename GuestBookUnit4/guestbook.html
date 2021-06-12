@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuestBook is BestBook</title>
+</head>
+
+<body>
+    <table>
+        <form action="post.php" method="post">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="txtName" maxlength="32" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="txtEmail" maxlength="256" /></td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td><input type="text" name="txtComment" maxlength="1024" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="btnSubmit" value="Submit" /></td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td><a href="view.php">View Guestbook</a></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!-- # login.html  -->
+
+<section class="threeColumns">
+    <article>
+        <p>THIS IS A PARAGRAPH OF STUFF BLAH BLAH BLAH LOR IPSUM AND SUCH</p>
+
+    </article>
+    <article class="twoThirds">
+        <h1>Login</h1>
+        <?php if ($form->isSubmitted() && $form->validate()) {
+        echo '<p class="error">The value submitted those on file</p>';
+        } ?>
+        <?php echo $form; ?>
+    </article>
+</section>

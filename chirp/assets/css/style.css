@@ -1,0 +1,238 @@
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+form {
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ecf0f1;
+}
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+.wrapper {
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+}
+
+.login_box{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 7%;
+    width: 35%;
+    background-color: #FFFFFF;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: .9;
+}
+
+.login_header {
+    width: 100%;
+    height: 90px;
+    background-color: #3498db;
+    color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+}
+.login_header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #2C6C96;
+    color: aliceblue;
+    text-shadow: #000 .5px .5px .5px;
+    font-size: 250%;
+
+}
+
+input[type="submit"]{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    color: aliceblue;
+    text-shadow: #000 .5px .5px .5px;
+    font-size: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover {
+    border-color: #3498db;
+}
+#second {
+    display: none;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 1000px;
+    height: 50px;
+    background-color: #3498db;
+    border-bottom: 0.25em solid #1894ca;
+    margin: 0 0 10px 0;
+    display: inline-flex;
+    line-height: 20px;
+    position: fixed;
+}
+.logo a {
+    margin-left: 10px;
+    font-size: 30;
+    position: relative;
+    top: 9px;
+    color: WHITE;
+    text-decoration: none;
+    text-shadow: #000000 .5px .5px .5px;
+
+}
+
+.logo img {
+    height: 100%;
+}
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px
+
+}
+nav a {
+    position: relative;
+    color: white;
+
+}
+nav a:hover {
+    border-bottom: 7px solid #2980b9;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.column {
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.user_details {
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+.user_details img {
+    width: 96px;
+    height: 113px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.user_details_right {
+    display: inline-block;
+    position: absolute;
+
+}
+
+.main_column {
+    float: right;
+    width: 70%;
+    z-index: -1;
+    min-height: 160px;
+}
+
+.post_form{
+    width: 100%;
+
+}
+.post_form textarea{
+    float: left;
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+.post_form input[type="submit"]{
+    height: 60px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.status_post {
+    width: 95%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 75px;
+}
+.post_profile_pic {
+    float:left;
+    margin-right: 8px;
+}
+.post_profile_pic img {
+    border-radius: 5px;
+}
+
+.profile_left {
+    width: 17%;
+    max-width: 250px;
+    min-width: 125px;
+    float: left;
+    position: relative;
+    top: 10px;
+    height: 100%;
+    border-right: 10px solid;
+    color: #cbaef8;
+}
+.profile_left img {
+    border-radius: 5px;
+    width: 96px;
+    height: 113px;
+}
+
+.profile_info p {
+    margin: 0 0 0 20px;
+    word-wrap: break-word;
+}
+.statusMSG {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #e74c3c;
+}
